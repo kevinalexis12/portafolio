@@ -1,0 +1,56 @@
+
+#hoja{
+    margin-top: 40px;
+    margin-right: 10px;
+    margin-left: 550px;
+}
+
+#inf{
+    margin-top: -10px;
+    float: left;
+    margin-left: 270px;
+    
+}
+section{
+    margin-left: -815;
+    margin-top: 10px;
+    margin-bottom: 150px;
+}
+footer{
+    margin-left: -815px;
+    margin-bottom: 0px;
+    margin-top: 100px;
+    margin-right: -300px;
+    background-color:cadetblue ;
+   font-family: cursive;
+}
+ul {
+    color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    width: 300px;
+margin-left: -815 ;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+#ni a:hover {
+    background-color:  #4CAF50;
+}
+.active {
+    background-color: #4CAF50;
+}

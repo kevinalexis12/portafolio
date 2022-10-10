@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+    <ul>
+        <li id="na"><a href="">kevin diaz</a> </li>
+        <li id="ni"><a href="http://localhost:3000/educacion">educacion</a></li>
+        <li id="ni"><a href="http://localhost:3000/experiencia">experiencia</a></li>
+        <li id="ni"><a href="http://localhost:3000/informacion">informacion</a></li>
+        
+      </ul>
+    </section>
+    
+
+    <div id="inf">
+         <%- include('informacion');%>
+    </div>
+
+<div id="hoja">
+    <div>
+       <%- include('educacion');%>
+    </div>
+    <div>
+        <%- include('experiencia');%>
+    </div>
+    <%- include('temp/footer');%>
+</div>
+</body>
+
+</html>

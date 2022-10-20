@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Kadwa&display=swap');
 #hoja{
     border-style: solid;
     border-radius: 1%;
@@ -10,39 +10,36 @@
     margin-bottom: 100px;
 }
 #info{
-    border-style: solid;
     border-radius: 1%;
     background-color: rgb(222, 178, 125);
     margin-top: -150px;
-
+    font-family: 'Kadwa', serif;
     width: 190px;
-    height: 290px;
     margin-left: 855px;
     margin-bottom: 100px;
-    
+    padding: 50px 50px;
     
 }
 #infor{
-    border-style: solid;
+    padding: 50px 50px;
+
     border-radius: 1%;
     background-color: rgb(222, 178, 125);
     margin-top: -150px;
-
+    font-family: 'Kadwa', serif;
     width: 500px;
-    height: 500px;
     margin-left: 635px;
     margin-bottom: 100px;
     
     
 }
 #inform{
-    border-style: solid;
+    padding: 50px 50px;
     border-radius: 1%;
     background-color: rgb(222, 178, 125);
     margin-top: -150px;
-
+    font-family: 'Kadwa', serif;
     width: 500px;
-    height: 330px;
     margin-left: 635px;
     margin-bottom: 100px;
     
@@ -108,6 +105,7 @@ margin-left: -815 ;
 }
 
 footer{
+    
     width: 100%;
 padding: 1px;
   background-image: url(../background-footer.svg);
@@ -183,4 +181,40 @@ padding: 1px;
     border: none;
     height: 1px;
     background-color: #7a7a7a;
+}
+
+#error{
+    margin-top: 100px;
+background: blue;
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.container-404{
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 1px 10px rgb(0, 0, 0,0.3);
+    border-radius: 5px;
+    line-height: 1.7;
+
+}
+.bot{
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    background: blue;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+img{
+    border-radius: 100%;
+    margin-left: 10px;
+    width: 100px;
+    height: 100px;
 }
